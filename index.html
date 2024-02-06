@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rakha Adrian Personal Profile</title>
+    <title>Khaaadrian</title>
     <link href="./src/output.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-neutral-50 font-body">
     <!-- nav -->
-<nav class="bg-gradient-to-r rounded-b-2xl shadow-lg from-gray-100 to-gray-300 border-gray-200">
+<nav class="bg-white rounded-b-3xl shadow-lg">
   <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
     <a href="" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="img/logo-ts.png" class="h-8" alt="" />
+        <img src="" class="h-8" alt="" />
         <span class="self-center text-3xl font-semibold whitespace-nowrap dark:text-black">Khaaadrian</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
@@ -35,10 +35,10 @@
     </div>
   </div>
 </nav>
-
     <!-- nav -->
+    
     <!-- Hero section start -->
-    <section id="home" class="pt-36">
+    <section id="home" class="pt-36 mb-20">
         <div class="container">
             <div class="flex flex-wrap justify-between">
                 <div class="w-full self-center px-4 lg:w-1/2">
@@ -46,9 +46,9 @@
                     <h2 class="font-medium text-sm mb-4 lg:text-2xl">Frontend Developer | Product Innovator</h2>
                     <p class="font-medium text-lg lg:text-4xl mb-5 leading-relaxed">Interested in Technology and Innovation</p>
 
-                    <a href="#" class="text-base font-semibold text-white bg-gradient-to-br from-red-600 to-red-400 shadow-md hover:shadow-lg hover:opacity-90 transition duration-300 ease-in-out py-3 px-7 rounded-2xl">Contact Me</a>
+                    <a href="src/about.html" class="text-base font-semibold text-white bg-gradient-to-br from-red-600 to-red-400 shadow-md hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out py-3 px-7 rounded-2xl">About Me</a>
                 </div>
-                <div class="w-full self-end px-4 lg:1/2">
+                <!-- <div class="w-full self-end px-4 lg:1/2">
                     <div class="relative mt-10">
                         <img src="img/foto-web-removebg-preview.png" alt="Rakha" class="max-w-full mx-auto" style="width: 200px;">
                         <span class="absolute bottom-0 -z-10 left-1/2 -translate-x-1/2">
@@ -56,7 +56,7 @@
                             <path fill="#EF4444" d="M51.4,-64.3C63.6,-51,68.6,-32,71,-13.2C73.5,5.5,73.5,24,65.9,38.9C58.3,53.8,43.1,65.2,25.4,73.2C7.6,81.1,-12.6,85.7,-28.5,79.4C-44.4,73.2,-55.9,56.1,-63.7,38.7C-71.4,21.3,-75.4,3.7,-71.1,-11.2C-66.9,-26,-54.4,-38,-41.2,-51.1C-27.9,-64.2,-14,-78.5,2.8,-81.9C19.6,-85.2,39.1,-77.6,51.4,-64.3Z" transform="translate(100 100) scale(1.1)" />
                           </svg>
                         </span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -67,12 +67,8 @@
     <section id="about" class="pt-36 pb-32 text-center">
       <div class="container">
         <div class="flex flex-wrap">
-          <div class="w-full px-4 mb-10 pb-28">
-            <h4 class="font-semibold text-black text-xl mb-3">About Me</h4>
-            <p class="font base">Hi! I'm Rakha Adrian Nur Tanaya, I'm a 10-th grade software engineer student at SMK Telkom Malang.</p>
-          </div>
           <div class="w-full px-4">
-            <h3 class="font-semibold text-black text-xl mb-3">Find Me</h3>
+            <h3 class="font-semibold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl mb-3">Find Me</h3>
             <div class="flex justify-center space-x-5">
               <!-- Instagram -->
               <a href="https://www.instagram.com/khaadriann/" target="_blank" class="p-4 rounded-full flex justify-center items-center border border-black hover:border-red-600 hover:bg-gradient-to-br from-red-600 to-red-400 hover:text-white">
@@ -96,5 +92,68 @@
       </div>
     </section>
     <!-- About end -->
+
+    <!-- Contact start  -->
+    <section id="contact" class="pt-36 pb-32">
+      <div class="container">
+        <div class="w-full px-4">
+          <div class="max-w-xl mx-auto text-center mb-16">
+            <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">Contact Me</h2>
+            <p class="font-medium text-md md:text-lg">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, saepe?</p>
+          </div>
+        </div>
+
+        <form>
+        <div class="w-full lg:w-2/3 lg:mx-auto">
+        <div class="wfull mb-8 px-4">
+          <label for="name" class="text-base text-red-500 font-bold">Name</label>
+          <input type="text" name="name" id="name" class="w-full px-4 py-2 bg-gray-200 text-black p-3 border rounded-md focus:outline-none focus:ring-slate-300 focus:ring-1 focus:border-slate-300">
+        </div>
+        <div class="wfull mb-8 px-4">
+          <label for="email" class="text-base text-red-500 font-bold">Email</label>
+          <input type="email" name="email" id="email" class="w-full px-4 py-2 bg-gray-200 text-black p-3 border rounded-md focus:outline-none focus:ring-slate-300 focus:ring-1 focus:border-slate-300">
+        </div>
+        <div class="wfull mb-8 px-4">
+          <label for="message" class="text-base text-red-500 font-bold">Message</label>
+          <textarea type="text" name="pesan" id="pesan" class="w-full px-4 py-2 bg-gray-200 text-black p-3 border rounded-md focus:outline-none focus:ring-slate-300 focus:ring-1 focus:border-slate-300 h-28"></textarea>
+        </div>
+        <div class="w-full">
+          <button class="text-base font-semibold text-white bg-gradient-to-br from-red-600 to-red-400 py-3 px-8 rounded-2xl w-full hover:opacity-80 hover:shadow-lg transition duration-300">Send</button>
+        </div>
+      </form>
+      </div>
+      </div>
+    </section>
+    <!-- Contact end -->
+
+    <!-- footer -->
+    <footer class="bg-black pt-24 pb-12 rounded-t-3xl">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">Khaaadrian</h2>
+            <h3 class="font-bold text-red-500 text-2xl mb-2">Contact Me</h3>
+            <p class="text-white font-semibold">rakhaadrian23@gmail.com</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-bold text-xl text-red-500 mb-5">Find Me</h3>
+            <ul class="text-white font-semibold">
+              <li><a href="https://www.linkedin.com/in/rakha-adrian-nur-tanaya/" class="inline-block text-base hover:text-red-500 mb-2">LinkedIn</a></li>
+              <li><a href="https://www.instagram.com/khaadriann/" class="inline-block text-base hover:text-red-500 mb-2">Instagram</a></li>
+              <li><a href="https://github.com/khakhaaa" class="inline-block text-base hover:text-red-500 mb-2">GitHub</a></li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-bold text-xl text-red-500 mb-5">Link</h3>
+            <ul class="text-white font-semibold">
+              <li><a href="#" class="inline-block text-base hover:text-red-500 mb-2">Home</a></li>
+              <li><a href="src/about.html" class="inline-block text-base hover:text-red-500 mb-2">About Me</a></li>
+              <li><a href="/src/project.html" class="inline-block text-base hover:text-red-500 mb-2">Project</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
 </body>
 </html>
